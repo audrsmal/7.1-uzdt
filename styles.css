@@ -14,7 +14,7 @@ header {
   align-items: center;
   margin-left: 6rem;
   margin-right: 6rem;
-  max-width: 1400px; /* or whatever width you want */
+  max-width: 1400px;
 }
 header img {
   height: 9rem;
@@ -74,4 +74,26 @@ header nav ul li a {
   width: 100%;
   min-width: 0;
   height: 400px;
+  margin-top: 2rem;
+}
+footer {
+  height: 6rem;
+  background-color: rgb(201, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  max-width: 1400px;
+}
+footer nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
 }
